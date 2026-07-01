@@ -1,23 +1,24 @@
 # BMI Calculator
 
 ## Description
-A Python Tkinter application that calculates Body Mass Index (BMI).
+A Python desktop application to calculate Body Mass Index (BMI).
 
 ## Features
 - Calculate BMI
-- Displays BMI category
-- Simple graphical user interface
+- BMI Categories
+- Color-coded Results
+- Save Records to CSV
+- View Records
+- BMI Graph using Matplotlib
 
 ## Technologies Used
 - Python
 - Tkinter
+- CSV
+- Matplotlib
 
 ## How to Run
-1. Install the required package:
-   ```
-   pip install -r requirements.txt
-   ```
-2. Run:
-   ```
-   python bmi_gui.py
-   ```
+
+pip install matplotlib
+
+python bmi_gui.py
